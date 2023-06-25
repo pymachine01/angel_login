@@ -5,6 +5,7 @@ import credentials
 import requests
 import numpy as np
 import pyotp
+import sleep
 
 myotp =  pyotp.TOTP(credentials.CD).now()
 
